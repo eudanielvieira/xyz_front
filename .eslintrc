@@ -7,6 +7,11 @@
     "prettier"
   ],
   "parser": "babel-eslint",
+  "env": {
+    "node": false,
+    "es6": true,
+    "browser": true
+  },
   "rules": {
     "comma-dangle": "off",
     "react/jsx-props-no-spreading": "off",
